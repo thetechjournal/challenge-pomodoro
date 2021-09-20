@@ -1,0 +1,79 @@
+body {
+    margin: 0px auto;
+    padding: 0;
+    background-image: url('../images/red.svg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container
+    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer {
+    height: 16em;
+    align-items: center;
+    padding: 5em;
+    background-image: url("../images/tomato.svg");
+    background-size: cover;
+    margin-bottom:1em;
+    color: white;
+    border-radius: 75px;
+}
+
+.timer p {
+    padding-top: 0.5em;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0.25em;
+}
+
+.message { 
+    color: white;
+    font-size: 2.5rem;
+    background-color:rgb(185, 17, 17);
+    padding: 0.2em 0.5em;
+    border-radius: 25px;
+}
+
+.button-container {
+    padding: 1em;
+}
+
+button {
+    width: 60px;
+    margin: 0.5em 1em;
+    border-radius: 5px;
+    padding: 0.4em;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #FFDD00;
+}
+
+button:focus {
+        color: black;
+        background-color: #FFDD00;
+        cursor: pointer;
+}
+
+button:disabled {
+    background-color: #e6deaa;
+}
+
+
